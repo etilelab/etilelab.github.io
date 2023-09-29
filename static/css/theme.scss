@@ -1,0 +1,47 @@
+// Options
+// 
+// Quickly modify global styling by enabling or disabling optional features.
+  
+$enable-rounded:            true !default;
+$enable-shadows:            true;
+$enable-transitions:        true;
+$enable-hover-media-query:  false;
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+
+// Variables
+//
+// Colors
+
+$theme-colors: (
+  primary: #12bbad,
+  secondary: #4f70ce,
+  light: #f3f3f3,
+  dark: #151515,
+  info: #ccc,
+  success: #28a745,
+  warning: #ffc107,
+  danger: #dc3545
+);
+
+$body-bg: white;
+$body-color: #333;
+
+
+$body-color-inverse: invert($body-color) !default;
+$link-color: #12bbad;
+
+// Fonts
+$font-family-base: Arial, Helvetica, sans-serif;
+$headings-font-family: $font-family-base;
+$display-font-family: $font-family-base;
+$font-weight-normal: 400;
+$headings-font-weight: 200;
+$lead-font-size:   1.30rem;
+
+$spacer: 1.5rem;
+$lead-font-weight: $font-weight-normal;
+$font-weight-light: 300;
+$font-weight-bold: 700;
+
+@import 'bootstrap-4.3.1';
