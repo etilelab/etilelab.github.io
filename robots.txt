@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://etilelab.github.io/sitemap.xml
